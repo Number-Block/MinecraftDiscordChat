@@ -10,6 +10,8 @@ Can be set by changing the environment variable. The environment variable name s
 
 MINECRAFT_DISCORD_BOT_TOKEN MINECRAFT_DISCORD_CHAT_CHANNEL_ID MINECRAFT_DISCORD_PORT
 
+After setting the environment variables, restart your computer.
+
 MINECRAFT_DISCORD_PORT defaults to 8080 If you change the port, you must change 8080 in the MINECRAFT_DISCORD_PORT and discord_minecraft_chat/discord_minecraft_chat_behavior/scripts/net.js DISCORDCHATURL variables.
 
 It can also be set by writing directly to the variable to use if the environment variable is null.
