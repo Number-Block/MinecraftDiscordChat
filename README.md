@@ -1,12 +1,11 @@
 # MinecraftDiscordChat
 Share Discord and Minecraft chats on BDS.
 
-
-Discord ボットのトークン、Minecraft のチャット チャネル ID、使用するポートを変更する
-環境変数を変更することで設定できます。環境変数名は次のようになります。
+Change Discord Bot token, Minecraft chat channel id and port used
+Can be set by changing the environment variable. The environment variable name should be as follows.
 
 MINECRAFT_DISCORD_BOT_TOKEN MINECRAFT_DISCORD_CHAT_CHANNEL_ID MINECRAFT_DISCORD_PORT
 
-MINECRAFT_DISCORD_PORT のデフォルトは 8080 ポートを変更する場合、MINECRAFT_DISCORD_PORT および discord_minecraft_chat/discord_minecraft_chat_behavior/scripts/net.js DISCORDCHATURL 変数で 8080 を変更する必要があります。
+MINECRAFT_DISCORD_PORT defaults to 8080 If you change the port, you must change 8080 in the MINECRAFT_DISCORD_PORT and discord_minecraft_chat/discord_minecraft_chat_behavior/scripts/net.js DISCORDCHATURL variables.
 
-環境変数が null の場合に使用する変数に直接書き込むことによって設定することもできます。
+It can also be set by writing directly to the variable to use if the environment variable is null.
