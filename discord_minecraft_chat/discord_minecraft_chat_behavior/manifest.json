@@ -1,0 +1,49 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "",
+        "name": "DiscordMinecraftChat",
+        "uuid": "e7c72767-7894-4d83-b19b-b0e8158aa32c",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            19,
+            70
+        ]
+    },
+    "modules": [
+        {
+            "description": "module",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "27e2a050-0208-47f3-a39e-0e5a85f1ae61",
+            "version": [
+                1,
+                0,
+                0
+            ],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.2.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-net",
+            "version": "1.0.0-beta"
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "DiscordName:ダイヤブロック#2582"
+        ],
+        "license": "LGPL-3.0",
+        "url": "https://www.youtube.com/channel/UCcd1cOtNdDZFSYIbw5UemGA"
+    }
+}
